@@ -1,0 +1,301 @@
+@charset "utf-8";
+html body {
+  height: 100%;
+  margin: 0;
+  width:100%;
+}
+body {
+  position: relative;
+/*  padding-bottom: 75px;*/
+  min-height: 100%;
+  z-index:2;
+
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+
+
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  display:flex;
+  flex-direction:column;
+  
+  padding-top:200px;
+  
+
+
+}
+
+.key h1{
+  font-size: 2.5rem;
+
+  
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+
+
+.concept_content {
+display:flex;
+}
+
+.concept_content .text {
+ 
+  width: 60%; 
+  font-size: 14px; 
+  line-height: 1.6; 
+}
+
+.concept_content .image {
+  
+  width: 35%; 
+  
+}
+
+.concept_content .image img {
+  width: 100%; 
+  display: block; 
+  
+}
+
+
+
+ .menu_section{
+  background:center / cover no-repeat fixed url("../images/sample_menu_bg.jpg") ;
+background-attachment: fixed;
+  padding:40px 10%;
+  width:80% ;
+  position:relative;
+  
+  z-index1;
+
+
+
+  
+}
+.all_pancake_menu{
+  display:flex;
+  flex-direction: row;
+    margin-left: 50px;
+      margin-right: 50px;
+      height: 50%;
+      margin-bottom: 25px;
+}
+.pancake_menu{
+  display:flex;
+  width:49%;
+  
+  height: 45%;
+  background-color:white;
+    margin-left: 5px;
+      margin-right: 5px;
+
+
+}
+.pancake_menu img{
+  width: 55%;
+  height: 100%;
+}
+.pancake_text{
+  width: 45%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 5px;
+  padding-bottom:0px;
+}
+.pancake_text h2 p .amount{
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
+  justify-content:space-between;
+  font-size:12px;
+  background-color:white;
+}
+.pancake_text h2{
+  text-align:left;
+  font-size:20px;
+}
+.pancake_menu p{
+  margin-top:70px;
+  font-size:17px;
+}
+.blue{
+  margin-top:400px;
+  
+}
+.amount{
+  text-align: right;
+  margin-top:270px;
+
+}
+.all_coffee_menu{
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  height: 25%;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 15px;
+}
+.coffee_menu{
+  display:flex;
+  width:49%;
+  height: 25%;
+  margin-bottom: 25px;
+}
+.coffee_menu img{
+  width: 20%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.coffee_text{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 100%;
+  width:80%;
+  padding: 10px;
+}
+.panckake .coffee{
+  height: 45%;
+  z-index: 2000;
+}
+.access dl{
+  display:flex;
+}
+.section_inner dl dt{
+width:80px;
+}
+
+.map{
+  width:100%;
+  
+}
+footer{
+  display: flex;
+
+  background-color: #251e19;
+  align-items: center;
+  bottom: 0px;
+flex-direction:column;
+  
+  text-align:center;
+  color: white;
+  
+  
+
+  
+
+}
+footer nav{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:30px;list-style:disc;
+}
+footer nav ul{
+  display: flex;
+align-items:center;
+
+}
+footer nav ul a{
+
+text-decoration:none;
+color:white;
+padding-inline:3px;
+
+}
+
+
+
+footer img{
+
+  width:50px;
+  
+}
+footer p{
+  
+font-size: 0.8rem;
+  margin-top: 5px;
+
+}
+
+
+
+  
+
